@@ -1,0 +1,53 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    float: right;
+}
+h2 {
+    float: left;
+    margin: 0;
+    color: #ffffff;
+}
+a {
+    float: right;
+    padding: 5px 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+}
+.box {
+    width:200px;
+    height:300px;
+    border: 3px solid #800000;
+    padding: 20px;
+    float: left;
+    margin: 10px;
+    position: relative;
+    
+}
+#bar {
+    padding: 5px;
+    background-color: #800000;
+    height: 30px;
+}
+.button {
+    position: absolute;
+    bottom: 5px;
+    margin: 0 auto;
+    right: 70px;
+    width: 50%;
+    border: 3px;
+    background-color: #800000; 
+    text-align: center;
+    
+}
+h4 {
+    color: white;
+}
+h4:hover {
+    color: black;
+}
